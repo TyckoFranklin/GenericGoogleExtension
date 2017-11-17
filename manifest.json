@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "HelloCBC",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://www.columbiabasin.edu/"],
+      "js": ["hello.js"]
+    }
+  ]
+}
